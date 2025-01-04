@@ -294,5 +294,27 @@
       <div style="z-index:-1;">
          <img src="https://i.imgur.com/a2h2V6f.gif" style="z-index:-1;position:fixed;right:0px;bottom:0px;">
       </div>
+      <script>
+   document.ondragstart = noselect;
+   document.onselectstart = noselect;
+   document.oncontextmenu = noselect;
+   function noselect() {return false;}
+</script>
+<script>
+   document.onkeydown = function(e) {
+   if(event.keyCode == 123) {
+   return false;
+   }
+   if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+   return false;
+   }
+   if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+   return false;
+   }
+   if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+   return false;
+   }
+   }
+</script>
    </body>
 </html>
