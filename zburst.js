@@ -3,7 +3,7 @@ anime.speed = 1;
 
 // Burst animation options
 let burstOpts = {
-  colors: ['#FF1461', '#5C02AD', '#18FF92', '#5A87FF', '#FBF38C'],
+  colors: ['#006400', '#8B8000', '#17276D', '#BD2272'],
   radius: 50,
   amount: 10,
   zIndex: 1
