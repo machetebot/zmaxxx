@@ -235,7 +235,7 @@
          margin: 0px auto 0;
          width: 777px;
          height: 600px;
-         background: linear-gradient(0deg, #000, #272727);
+         background: linear-gradient(270deg,#BD2272,#17276D 100%);
          }
          .block:before, .block:after {
          content: '';
@@ -264,7 +264,7 @@
          .block:after {
          filter: blur(40px);
          }
-         .shape {
+         .zharlzzz {
          background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
          animation: morph 8s ease-in-out infinite;
          border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -272,6 +272,10 @@
          transition: all 1s ease-in-out;
          width: 777px;
          z-index: 5;
+         }
+         #outerdiv{width:777px;height:600px;overflow:hidden;position:relative;
+         }
+         #inneriframe{position:absolute;top:0px;left:-112px;width:777px;height:600px;
          }
       </style>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"/>
@@ -306,17 +310,14 @@
       <table class="center_it">
          <tr>
             <td>
-               <img class="shadowfilter" src="https://cdn.jsdelivr.net/gh/machetebot/machetebot.github.io@main/img/zharlie.png" width="200px"/>
+               <img class="shadowfilter" src="https://cdn.jsdelivr.net/gh/machetebot/machetebot.github.io@main/img/zharlie.png" width="180px"/>
                <div class="halfway">
                <div class="block">
                   </block>
-                  <div class="shape">
-                     <style type="text/css"> 
-                        #outerdiv{width:777px;height:600px;overflow:hidden;position:relative;}#inneriframe{position:absolute;top:0px;left:-112px;width:777px;height:600px;}
-                     </style>
+                  <div class="zharlzzz">
                      <div id="outerdiv">
                         <iframe id="inneriframe" scrolling="no"
-                        <iframe frameborder="0" scrolling="no" style="height:600px;width:996px;border:none;" src='https:/machetebot.github.io/'></iframe>
+                        <iframe frameborder="0" scrolling="no" style="height:600px;width:996px;border:none;" src="https:/machetebot.github.io/"></iframe>
                      </div>
                   </div>
                </div>
