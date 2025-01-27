@@ -595,6 +595,348 @@
          opacity: 0;
          }
          }
+         html,
+         html[data-theme=light] {
+         --accent-color: #BD2272;
+         --alt-text-color: #ededed;
+         --background-color: #fdfdfd;
+         --background-color-alt: #ededed;
+         --background-color-contrast: #3c3e42;
+         --background-color-footer: #3c3e42;
+         --button-color: #fff;
+         --border-color: #ededed;
+         --deemphasized-text-color: #afafaf;
+         --header-text-color: #3c3e42;
+         --link-hover-color: #3c3e42;
+         --logo-color: #3c3e42;
+         --text-color: #3c3e42;
+         --text-color-alt: #afafaf;
+         --text-color-contrast: #fff;
+         --text-color-footer: #fff;
+         }
+         html[data-theme=dark] {
+         --accent-color: #BD2272;
+         --background-color: #1f1f1f;
+         --background-color-alt: #3c3e42;
+         --background-color-contrast: #fff;
+         --background-color-footer: #0b0b0c;
+         --border-color: #3c3e42;
+         --button-color: #ededed;
+         --header-text-color: #ededed;
+         --link-hover-color: #ededed;
+         --logo-color: #ededed;
+         --text-color: #ededed;
+         --text-color-alt: #ededed;
+         --text-color-contrast: #0b0b0c;
+         --text-color-footer: #fff;
+         }
+         @media (prefers-color-scheme: light) {
+         html[data-theme=auto],
+         html:not([data-theme]) {
+         --accent-color: #BD2272;
+         --alt-text-color: #ededed;
+         --background-color: #fdfdfd;
+         --background-color-alt: #ededed;
+         --background-color-contrast: #3c3e42;
+         --background-color-footer: #3c3e42;
+         --button-color: #fff;
+         --border-color: #ededed;
+         --deemphasized-text-color: #afafaf;
+         --header-text-color: #3c3e42;
+         --link-hover-color: #3c3e42;
+         --logo-color: #3c3e42;
+         --text-color: #3c3e42;
+         --text-color-alt: #afafaf;
+         --text-color-contrast: #fff;
+         --text-color-footer: #fff;
+         }
+         }
+         @media (prefers-color-scheme: dark) {
+         html[data-theme=auto],
+         html:not([data-theme]) {
+         --accent-color: #BD2272;
+         --background-color: #1f1f1f;
+         --background-color-alt: #3c3e42;
+         --background-color-contrast: #fff;
+         --background-color-footer: #0b0b0c;
+         --border-color: #3c3e42;
+         --button-color: #ededed;
+         --header-text-color: #ededed;
+         --link-hover-color: #ededed;
+         --logo-color: #ededed;
+         --text-color: #ededed;
+         --text-color-alt: #ededed;
+         --text-color-contrast: #0b0b0c;
+         --text-color-footer: #fff;
+         }
+         }
+         h6 {
+         display: inline-block;
+         font-size: 0;
+         height: 60px;
+         position: relative;
+         width: 180px;
+         }
+         h6 > a {
+         height: 100%;
+         left: 0;
+         position: absolute;
+         top: 0;
+         width: 100%;
+         z-index: 1;
+         align-items: center;
+         color: #BD2272;
+         display: flex;
+         justify-content: center;
+         z-index: 0;
+         }
+         div.orbit {
+         animation: 10s ease-in-out 0s infinite orbitPosition, 10s step-end 0s infinite orbitDepth;
+         pointer-events: none;
+         transform: translateX(0%);
+         z-index: 0;
+         }
+         div.orbit.orbit-1 {
+         animation-delay: -8.8s;
+         position: absolute;
+         top: 58.4%;
+         left: -5.2px;
+         width: 105.2%;
+         }
+         div.orbit.orbit-1:after {
+         height: 4px;
+         width: 4px;
+         }
+         div.orbit.orbit-2 {
+         animation-delay: -2.3s;
+         position: absolute;
+         top: 87.8%;
+         left: 10.7px;
+         width: 89.3%;
+         }
+         div.orbit.orbit-2:after {
+         height: 8px;
+         width: 8px;
+         }
+         div.orbit.orbit-3 {
+         animation-delay: -4.3s;
+         position: absolute;
+         top: 47.2%;
+         left: -6.3px;
+         width: 106.3%;
+         }
+         div.orbit.orbit-3:after {
+         height: 12px;
+         width: 12px;
+         }
+         div.orbit.orbit-4 {
+         animation-delay: -5.6s;
+         position: absolute;
+         top: 40.2%;
+         left: -5.2px;
+         width: 105.2%;
+         }
+         div.orbit.orbit-4:after {
+         height: 5px;
+         width: 5px;
+         }
+         div.orbit.orbit-5 {
+         animation-delay: -9.2s;
+         position: absolute;
+         top: 17.8%;
+         left: 5.4px;
+         width: 94.6%;
+         }
+         div.orbit.orbit-5:after {
+         height: 6px;
+         width: 6px;
+         }
+         div.orbit.orbit-6 {
+         animation-delay: -3.7s;
+         position: absolute;
+         top: 13.6%;
+         left: 8.6px;
+         width: 91.4%;
+         }
+         div.orbit.orbit-6:after {
+         height: 12px;
+         width: 12px;
+         }
+         div.orbit.orbit-7 {
+         animation-delay: -7.6s;
+         position: absolute;
+         top: -0.4%;
+         left: 26.7px;
+         width: 73.3%;
+         }
+         div.orbit.orbit-7:after {
+         height: 5px;
+         width: 5px;
+         }
+         div.orbit.orbit-8 {
+         animation-delay: -7s;
+         position: absolute;
+         top: -14.4%;
+         left: 58.6px;
+         width: 41.4%;
+         }
+         div.orbit.orbit-8:after {
+         height: 6px;
+         width: 6px;
+         }
+         div.orbit.orbit-9 {
+         animation-delay: -5.4s;
+         position: absolute;
+         top: 8%;
+         left: 15px;
+         width: 85%;
+         }
+         div.orbit.orbit-9:after {
+         height: 12px;
+         width: 12px;
+         }
+         div.orbit.orbit-10 {
+         animation-delay: -10.2s;
+         position: absolute;
+         top: 36%;
+         left: -4.1px;
+         width: 104.1%;
+         }
+         div.orbit.orbit-10:after {
+         height: 9px;
+         width: 9px;
+         }
+         div.orbit.orbit-11 {
+         animation-delay: -4.2s;
+         position: absolute;
+         top: 96.2%;
+         left: 20.3px;
+         width: 79.7%;
+         }
+         div.orbit.orbit-11:after {
+         height: 6px;
+         width: 6px;
+         }
+         div.orbit.orbit-12 {
+         animation-delay: -2.1s;
+         position: absolute;
+         top: 101.8%;
+         left: 28.8px;
+         width: 71.2%;
+         }
+         div.orbit.orbit-12:after {
+         height: 12px;
+         width: 12px;
+         }
+         div.orbit.orbit-13 {
+         animation-delay: -10s;
+         position: absolute;
+         top: 3.8%;
+         left: 19.2px;
+         width: 80.8%;
+         }
+         div.orbit.orbit-13:after {
+         height: 6px;
+         width: 6px;
+         }
+         div.orbit.orbit-14 {
+         animation-delay: -5.4s;
+         position: absolute;
+         top: 108.8%;
+         left: 43.7px;
+         width: 56.3%;
+         }
+         div.orbit.orbit-14:after {
+         height: 10px;
+         width: 10px;
+         }
+         div.orbit.orbit-15 {
+         animation-delay: -2.6s;
+         position: absolute;
+         top: 99%;
+         left: 24.6px;
+         width: 75.4%;
+         }
+         div.orbit.orbit-15:after {
+         height: 8px;
+         width: 8px;
+         }
+         div.orbit.orbit-16 {
+         animation-delay: -7s;
+         position: absolute;
+         top: -0.4%;
+         left: 25.6px;
+         width: 74.4%;
+         }
+         div.orbit.orbit-16:after {
+         height: 8px;
+         width: 8px;
+         }
+         div.orbit.orbit-17 {
+         animation-delay: -11.6s;
+         position: absolute;
+         top: 90.6%;
+         left: 12.9px;
+         width: 87.1%;
+         }
+         div.orbit.orbit-17:after {
+         height: 11px;
+         width: 11px;
+         }
+         div.orbit.orbit-18 {
+         animation-delay: -2.8s;
+         position: absolute;
+         top: -4.6%;
+         left: 33.1px;
+         width: 66.9%;
+         }
+         div.orbit.orbit-18:after {
+         height: 7px;
+         width: 7px;
+         }
+         div.orbit.orbit-19 {
+         animation-delay: -5.2s;
+         position: absolute;
+         top: 71%;
+         left: -2px;
+         width: 102%;
+         }
+         div.orbit.orbit-19:after {
+         height: 5px;
+         width: 5px;
+         }
+         div.orbit.orbit-20 {
+         animation-delay: -11.7s;
+         position: absolute;
+         top: 22%;
+         left: 2.2px;
+         width: 97.8%;
+         }
+         div.orbit.orbit-20:after {
+         height: 8px;
+         width: 8px;
+         }
+         @media (prefers-reduced-motion) {
+         div.orbit {
+         animation-play-state: paused;
+         }
+         }
+         div.orbit:after {
+         background-color: var(--accent-color);
+         border-radius: 50%;
+         content: "";
+         display: block;
+         }
+         @keyframes orbitPosition {
+         50% {
+         transform: translateX(100%);
+         }
+         }
+         @keyframes orbitDepth {
+         50% {
+         z-index: -1;
+         }
+         }
       </style>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"/>
    </head>
@@ -625,26 +967,48 @@
          <div class="bubble x9"></div>
          <div class="bubble x10"></div>
       </div>
-         <div class="star"></div>
-         <div class="meteor-1"></div>
-         <div class="meteor-2"></div>
-         <div class="meteor-3"></div>
-         <div class="meteor-4"></div>
-         <div class="meteor-5"></div>
-         <div class="meteor-6"></div>
-         <div class="meteor-7"></div>
-         <div class="meteor-8"></div>
-         <div class="meteor-9"></div>
-         <div class="meteor-10"></div>
-         <div class="meteor-11"></div>
-         <div class="meteor-12"></div>
-         <div class="meteor-13"></div>
-         <div class="meteor-14"></div>
-         <div class="meteor-15"></div>
+      <div class="star"></div>
+      <div class="meteor-1"></div>
+      <div class="meteor-2"></div>
+      <div class="meteor-3"></div>
+      <div class="meteor-4"></div>
+      <div class="meteor-5"></div>
+      <div class="meteor-6"></div>
+      <div class="meteor-7"></div>
+      <div class="meteor-8"></div>
+      <div class="meteor-9"></div>
+      <div class="meteor-10"></div>
+      <div class="meteor-11"></div>
+      <div class="meteor-12"></div>
+      <div class="meteor-13"></div>
+      <div class="meteor-14"></div>
+      <div class="meteor-15"></div>
       <table class="center_it">
          <tr>
             <td>
-               <img class="shadowfilter" src="https://cdn.jsdelivr.net/gh/machetebot/machetebot.github.io@main/img/zharlie.png" width="180px"/>
+               <h6>
+                  <img class="shadowfilter" src="https://cdn.jsdelivr.net/gh/machetebot/machetebot.github.io@main/img/zharlie.png" width="180px"/>
+                  <div class="orbit orbit-1"></div>
+                  <div class="orbit orbit-2"></div>
+                  <div class="orbit orbit-3"></div>
+                  <div class="orbit orbit-4"></div>
+                  <div class="orbit orbit-5"></div>
+                  <div class="orbit orbit-6"></div>
+                  <div class="orbit orbit-7"></div>
+                  <div class="orbit orbit-8"></div>
+                  <div class="orbit orbit-9"></div>
+                  <div class="orbit orbit-10"></div>
+                  <div class="orbit orbit-11"></div>
+                  <div class="orbit orbit-12"></div>
+                  <div class="orbit orbit-13"></div>
+                  <div class="orbit orbit-14"></div>
+                  <div class="orbit orbit-15"></div>
+                  <div class="orbit orbit-16"></div>
+                  <div class="orbit orbit-17"></div>
+                  <div class="orbit orbit-18"></div>
+                  <div class="orbit orbit-19"></div>
+                  <div class="orbit orbit-20"></div>
+               </h6>
                <div class="halfway">
                <div class="block">
                   </block>
