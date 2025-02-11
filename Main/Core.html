@@ -47,14 +47,14 @@
     <script type="text/javascript" src="/metrika.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800andamp;subset=latin,latin-ext" rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
-    <script>
-   function switchToDesktopView() {
+<script language="javascript">
+   function forceDesktopView() {
      var viewportMetaTag = document.querySelector('meta[name="viewport"]');
      if (viewportMetaTag) {
-   viewportMetaTag.parentNode.removeChild(viewportMetaTag);
-     }
+   viewportMetaTag.content = 'width=1024'; 
    }
-    </script>
+  }
+</script>
 <style>
    #overlay {
    position: fixed;
