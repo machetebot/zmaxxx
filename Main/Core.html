@@ -247,7 +247,25 @@ body { font-family: 'Source Sans Pro'; background: linear-gradient(270deg,#BD227
             transform: rotate(360deg);
             }
             }
-  
+.spark {
+    position: absolute;
+    font-size: 1em;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: spark-animation 1s ease-out forwards;
+    font-family: 'Alagard', serif;
+    color: var(--spark-color);
+}
+@keyframes spark-animation {
+    0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+    opacity: 0;
+    transform: translate(-50%, -150%) scale(0.5);
+    }
+}
         </style>
         <script type="text/javascript">
             $(function(){var o=$('<div id="overlay"></div>');o.show(),o.appendTo(document.body),$(".popup").show(),$(".close").click(function(){return $(".popup").hide(),o.appendTo(document.body).remove(),!1}),$(".x").click(function(){return $(".popup").hide(),o.appendTo(document.body).remove(),!1})})
@@ -13030,5 +13048,32 @@ body { font-family: 'Source Sans Pro'; background: linear-gradient(270deg,#BD227
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/gh/machetebot/zmaxxx@main/zburst.js"></script>
+<script>
+    let lastSparkTime = 0;
+    const symbols = ["+", "❦", "⍟", "✭", "✪", "✶", "㋡", "☆"];
+    const pastelColors = ["#FFB3BA", "#FFDFBA", "#FFFFBA", "#BAFFC9", "#BAE1FF"];
+    function createSparkle(e) {
+        const currentTime = Date.now();
+        if (currentTime - lastSparkTime > 90) {
+            const body = document.querySelector('body');
+            const spark = document.createElement("div");
+            spark.className = "spark";
+            spark.innerText = symbols[Math.floor(Math.random() * symbols.length)];
+          
+            const x = e.touches ? e.touches[0].pageX : e.pageX;
+            const y = e.touches ? e.touches[0].pageY : e.pageY;
+            spark.style.left = x + "px";
+            spark.style.top = y + "px";
+            spark.style.setProperty('--spark-color', pastelColors[Math.floor(Math.random() * pastelColors.length)]);
+            body.appendChild(spark);
+            setTimeout(function() {
+                spark.remove();
+            }, 1000);
+            lastSparkTime = currentTime;
+        }
+    }
+    document.addEventListener("mousemove", createSparkle);
+    document.addEventListener("touchmove", createSparkle); 
+    </script>
     </body>
 </html>
