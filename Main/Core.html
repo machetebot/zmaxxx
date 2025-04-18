@@ -49,7 +49,7 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800andamp;subset=latin,latin-ext" rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
         <script src="https://richinfo.co/richpartners/in-page/js/richads-ob.js?pubid=960365&siteid=357737" async></script>
-	<script>
+	      <script>
             function switchToDesktopView() {
               var viewportMetaTag = document.querySelector('meta[name="viewport"]');
               if (viewportMetaTag) {
@@ -267,44 +267,37 @@
             transform: translate(-50%, -150%) scale(0.5);
             }
             }
-            
             .marquee {
-	overflow-x: clip;
-	white-space: nowrap;
-	position: relative;
-	width: 100%;
-}
-
-.marquee-inner {
-	display: flex;
-	align-items: center;
-	gap: 2vw;
-	will-change: transform;
-}
-
-.marquee-inner img {
-	height: auto;
-	transition: transform 0.5s;
-	flex-shrink: 0;
-	width: 20vw;
-	
-}
-
-.marquee-inner img:hover {
-	transform: scale(1.03);
-}
-        </style>
+          	overflow-x: clip;
+	          white-space: nowrap;
+	          position: relative;
+	          width: 100%;
+            }
+            .marquee-inner {
+	          display: flex;
+	          align-items: center;
+	          gap: 2vw;
+	          will-change: transform;
+            }
+            .marquee-inner img {
+	          height: auto;
+	          transition: transform 0.5s;
+	          flex-shrink: 0;
+	          width: 20vw;
+            }
+            .marquee-inner img:hover {
+          	transform: scale(1.03);
+            }
+      </style>
         <script>
 document.addEventListener("DOMContentLoaded", () => {
 	const marquee = document.querySelector(".marquee-inner");
 	const speed = 1; // Scrolling Speed
 	let scrollAmount = 0;
 	let isHovered = false;
-
 	// Duplicates the content
 	const marqueeContent = marquee.innerHTML;
 	marquee.innerHTML += marqueeContent;
-
 	const startScrolling = () => {
 		if (!isHovered) {
 			scrollAmount -= speed;
@@ -315,15 +308,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 		requestAnimationFrame(startScrolling);
 	};
-
 	marquee.addEventListener("mouseover", () => {
 		isHovered = true;
 	});
-
 	marquee.addEventListener("mouseout", () => {
 		isHovered = false;
 	});
-
 	startScrolling();
 }); 
         </script>
@@ -412,7 +402,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         
                   <div class="animated-gradient">
                     <p align="center" style="font-size:20px;color:#990606;font-family:Source Sans Pro">Ｗ Ｅ Ｂ Ｒ Ｉ Ｎ Ｇ 'ｓ</p></div>
-                
 <div class="marquee">
 <div class="marquee-inner">
 <div id='DYKENET'>
@@ -631,7 +620,7 @@ This site is part of <a href="https://jack-dawlia.neocities.org/page/shrines/ult
                 <script type="text/javascript" src="http://MobTop.az/7116.js"></script>
                 </noscript>
                 <script type="text/javascript" src="https://mobtop.az/7116.js"></script><a href="https://mobtop.az/7116.go"><img src="https://mobtop.az/7116.home" width="88" alt="MobTop.az"/></a><br/> <!-- HitMeter counter -->
- <script language="javascript">
+                <script language="javascript">
   (function (d, w, c) {
     var hmc=d.createElement("script");
     hmc.type="text/javascript";
@@ -641,7 +630,7 @@ This site is part of <a href="https://jack-dawlia.neocities.org/page/shrines/ult
     scrpt.parentNode.insertBefore(hmc, scrpt)
   })(document, window, 14361);
 </script>
-<a href="//hitmeter.ru" target="_blank"><img src="//img.hitmeter.ru/counters/c2.gif?counter=14361&phase=1" width="88" height="31" alt="HitMeter.ru - счетчик посетителей сайта, бесплатная статистика" border="0"></a> <br> <!-- hit.ua --> <a href='http://hit.ua/?x=16232' target='_blank'>
+                <a href="//hitmeter.ru" target="_blank"><img src="//img.hitmeter.ru/counters/c2.gif?counter=14361&phase=1" width="88" height="31" alt="HitMeter.ru - счетчик посетителей сайта, бесплатная статистика" border="0"></a> <br> <!-- hit.ua --> <a href='http://hit.ua/?x=16232' target='_blank'>
                 <script language="javascript" type="text/javascript">
                     <!--
                     Cd=document;Cr="and"+Math.random();Cp="ands=1";
