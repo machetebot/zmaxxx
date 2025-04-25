@@ -288,6 +288,78 @@
             .marquee-inner img:hover {
           	transform: scale(1.03);
             }
+            
+            
+            
+@keyframes hue {
+    from {
+        filter: hue-rotate(0deg) drop-shadow(4px 4px 8px rgba(0,0,0,0.25));
+    }
+    to {
+        filter: hue-rotate(360deg) drop-shadow(4px 4px 8px rgba(0,0,0,0.25));
+    }
+}
+@keyframes rotate {
+    from {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+        transform: rotate3d(1, 1, 1, 360deg);
+    }
+}
+@keyframes glooble {
+    0%, 100% {
+        transform: scale(85%, 115%);
+    }
+    50% {
+        transform: scale(115%, 85%);
+    }
+}
+.glooble {
+    animation: glooble 2s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+.hue {
+    color: red;
+    animation: hue 4s infinite linear;
+}
+
+        
+
+hr{
+    background: #ff0000;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff0000), color-stop(25%,#ffff00), color-stop(50%,#00ff00), color-stop(75%,#00ffff), color-stop(100%,#0000ff));
+    background: -webkit-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+    background: -moz-linear-gradient(-45deg, #ff0000 0%, #ffff00 25%, #00ff00 50%, #00ffff 75%, #0000ff 100%);
+    background: -o-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+    background: -ms-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+    background: linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+    animation: hue 2s infinite linear;
+    height: 0.7px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+}
+
+.spark {
+    position: absolute;
+    font-size: 1em;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: spark-animation 1s ease-out forwards;
+    font-family: 'Alagard', serif;
+    color: var(--spark-color);
+}
+@keyframes spark-animation {
+    0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+    opacity: 0;
+    transform: translate(-50%, -150%) scale(0.5);
+    }
+}
+            
       </style>
         <script>
 document.addEventListener("DOMContentLoaded", () => {
@@ -389,9 +461,11 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="main">
             <div id="text">
                 <p align="center"> <img class="image" src="https://cdn.jsdelivr.net/gh/machetebot/machetebot.github.io@main/img/gif/Sharinganz.png" height="60px"/> </p>
-                <strong>
+               <hr> <strong>
                     <div class="animated-gradient">
-                    <p align="center" style="font-size:20px;color:#990606;font-family:Source Sans Pro"> ＣＯＧＩＴＯ, ＥＲＧＯ ＳＵＭ ㋡ </p></div>
+                    <p align="center" style="font-size:20px;color:#990606;font-family:Source Sans Pro"> ＣＯＧＩＴＯ, ＥＲＧＯ ＳＵＭ ㋡
+                    <hr>
+                    </p></div>
                     <div id="zharlie" style="text-align: left;">
                         <p class="zmaxxx"> One never knows what to expect when I enter the scene. I run a full gamut from friendly, to intimidating, and very stop in between. Many have said I am eccentric and idiosyncratic to the extreme. I kinda seen it. All I can say is that I possessed a raw-rare kind of charisma. 🫢 </p>
                         <script async="async" data-cfasync="false" src="//deliriumswarthybeginner.com/6abd95f108ce1629f5724fb2c134df85/invoke.js"></script>
@@ -400,8 +474,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         <p align="center"> <img class="inner" src="https://media.tenor.com/Q0lZ_pDCeS4AAAAi/itachi-uchiha.gif" width="100"/> </p>
                         <p class="zmaxxx"> I am nothing special. I don't hold the answers to any of lifes greatest mysteries. Other than the meaning of it at age 30's. I have, however, managed to solve a few of my own questions over time and will always be willing to lend what others advices are. I guess it should add now that I am however, a solitary creature by nature and mostly often shun by the company of others unless they're invited in. But if I'm forced to play with others. I'll do my best to make a memorable impression. 😶 </p>
                         
-                  <div class="animated-gradient">
-                    <p align="center" style="font-size:20px;color:#990606;font-family:Source Sans Pro">Ｗ Ｅ Ｂ Ｒ Ｉ Ｎ Ｇ 'ｓ</p></div>
+                  <hr><div class="animated-gradient">
+                    <p align="center" style="font-size:20px;color:#990606;font-family:Source Sans Pro">Ｗ Ｅ Ｂ Ｒ Ｉ Ｎ Ｇ 'ｓ</p></div><hr>
 <div class="marquee">
 <div class="marquee-inner">
 
@@ -13368,7 +13442,7 @@ This site is part of <a href="https://jack-dawlia.neocities.org/page/shrines/ult
             </div>
             <div id="about" style="display: none;">
                 <p align="center"><img class="shadowfilter" src="https://cdn.jsdelivr.net/gh/machetebot/machetebot.github.io@main/img/gif/sharingganeyes.gif" height="60"/></p>
-                <p align="center" style="font-size:20px;color:#990606;font-family:Source Sans Pro"> ＥＴ 𖧹 ＥＰＳＩ𖧹 ＭＥＣＵＭ </p>
+               <hr> <p align="center" style="font-size:20px;color:#990606;font-family:Source Sans Pro"> ＥＴ 𖧹 ＥＰＳＩ𖧹 ＭＥＣＵＭ  </p> <hr>
                 <strong>
                     I've never quite gotten the hang of talking about myself. Especially in situations like these. I think I've written and rewritten my profile numerous times and they never seemed to fit me. Maybe it's just because I can never find that comfortable spot to actually write from. It always makes me somewhat uneasy to express too much of myself. I'm not sure why really. Then I guess if you didn't want to read it, you wouldn't, right? <br><br>
                     
