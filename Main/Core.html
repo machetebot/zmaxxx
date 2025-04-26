@@ -289,78 +289,71 @@
           	transform: scale(1.03);
             }
             
-            
-            
-@keyframes hue {
-    from {
-        filter: hue-rotate(0deg) drop-shadow(4px 4px 8px rgba(0,0,0,0.25));
-    }
-    to {
-        filter: hue-rotate(360deg) drop-shadow(4px 4px 8px rgba(0,0,0,0.25));
-    }
-}
-@keyframes rotate {
-    from {
-        transform: rotate3d(0, 0, 0, 0deg);
-    }
-    to {
-        transform: rotate3d(1, 1, 1, 360deg);
-    }
-}
-@keyframes glooble {
-    0%, 100% {
-        transform: scale(85%, 115%);
-    }
-    50% {
-        transform: scale(115%, 85%);
-    }
-}
-.glooble {
-    animation: glooble 2s cubic-bezier(0.37, 0, 0.63, 1) infinite;
-}
-.hue {
-    color: red;
-    animation: hue 4s infinite linear;
-}
-
-        
-
-hr{
-    background: #ff0000;
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff0000), color-stop(25%,#ffff00), color-stop(50%,#00ff00), color-stop(75%,#00ffff), color-stop(100%,#0000ff));
-    background: -webkit-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
-    background: -moz-linear-gradient(-45deg, #ff0000 0%, #ffff00 25%, #00ff00 50%, #00ffff 75%, #0000ff 100%);
-    background: -o-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
-    background: -ms-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
-    background: linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
-    animation: hue 2s infinite linear;
-    height: 0.7px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
-}
-
-.spark {
-    position: absolute;
-    font-size: 1em;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    animation: spark-animation 1s ease-out forwards;
-    font-family: 'Alagard', serif;
-    color: var(--spark-color);
-}
-@keyframes spark-animation {
-    0% {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-    }
-    100% {
-    opacity: 0;
-    transform: translate(-50%, -150%) scale(0.5);
-    }
-}
-            
-      </style>
+            @keyframes hue { 
+            from {
+            filter: hue-rotate(0deg) drop-shadow(4px 4px 8px rgba(0,0,0,0.25));
+            }
+            to {
+            filter: hue-rotate(360deg) drop-shadow(4px 4px 8px rgba(0,0,0,0.25));
+            }
+            }
+            @keyframes rotate {
+            from {
+            transform: rotate3d(0, 0, 0, 0deg);
+            }
+            to {
+            transform: rotate3d(1, 1, 1, 360deg);
+            }
+            }
+            @keyframes glooble {
+            0%, 100% {
+            transform: scale(85%, 115%);
+            }
+            50% {
+            transform: scale(115%, 85%);
+            }
+            }
+            .glooble {
+            animation: glooble 2s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+            }
+            .hue {
+            color: red;
+            animation: hue 4s infinite linear;
+            }
+            hr{
+            background: #ff0000;
+            background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff0000), color-stop(25%,#ffff00), color-stop(50%,#00ff00), color-stop(75%,#00ffff), color-stop(100%,#0000ff));
+            background: -webkit-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+            background: -moz-linear-gradient(-45deg, #ff0000 0%, #ffff00 25%, #00ff00 50%, #00ffff 75%, #0000ff 100%);
+            background: -o-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+            background: -ms-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+            background: linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+            animation: hue 2s infinite linear;
+            height: 0.7px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+            }
+            .spark {
+            position: absolute;
+            font-size: 1em;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            animation: spark-animation 1s ease-out forwards;
+            font-family: 'Alagard', serif;
+            color: var(--spark-color);
+            }
+            @keyframes spark-animation {
+            0% {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+            }
+            100% {
+            opacity: 0;
+            transform: translate(-50%, -150%) scale(0.5);
+            }
+            }
+        </style>
         <script>
 document.addEventListener("DOMContentLoaded", () => {
 	const marquee = document.querySelector(".marquee-inner");
@@ -895,7 +888,7 @@ This site is part of <a href="https://jack-dawlia.neocities.org/page/shrines/ult
                                artist: "RTG FM Metalcore",
                                title: "Live Radio Stream",
                             },
-                            url: "https://radioter.io/r/v3/listen/508?format=mp3_320k",
+                            url: "https://eu4.fastcast4u.com/proxy/bxixolbj/stream.mp3",
                         }, 
                                {
                             metaData: {            
@@ -13349,13 +13342,6 @@ This site is part of <a href="https://jack-dawlia.neocities.org/page/shrines/ult
                                 title: "Rock | Alternative",
                             },
                             url: "https://archive.org/download/metalcore-rock/Rock%20-%20Alternative%20%E3%8B%A1.mp3",
-                        },
-                               {
-                            metaData: {
-                                artist: "RTG",
-                                title: "FM Live",
-                            },
-                            url: "https://eu4.fastcast4u.com/proxy/bxixolbj/stream.mp3",
                         },
                               {
                             metaData: {
