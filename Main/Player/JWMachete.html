@@ -1151,34 +1151,6 @@
          }
       </script>
       <div style='z-index:-1;'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKHr8jJ2adgorzibOJCgdlfAPhgnGphBPqdgq9eqZjmL5OPDuFhekc-P6FhIS4Vx7nBUEpqTp8_LFzCwIABS48xfJkY0oC_lYDJIK4mqFT_lZOAJAJmiqiKYvVeqhWJO17luRYBqw5x2V7yQbr_1ocfiwEBBqCzm70j8XzN_dLmpnVNt9_qRj9u2zkJI_-/s1600/1000052626.gif' style='z-index:-1;position:fixed;right:0px;bottom:0px;'/></div>
-
- <script>
-    let lastSparkTime = 0;
-    const symbols = ["+", "❦", "⍟", "✭", "✪", "✶", "㋡", "☆"];
-    const pastelColors = ["#FFB3BA", "#FFDFBA", "#FFFFBA", "#BAFFC9", "#BAE1FF"];
-    function createSparkle(e) {
-        const currentTime = Date.now();
-        if (currentTime - lastSparkTime > 90) {
-            const body = document.querySelector('body');
-            const spark = document.createElement("div");
-            spark.className = "spark";
-            spark.innerText = symbols[Math.floor(Math.random() * symbols.length)];
-          
-            const x = e.touches ? e.touches[0].pageX : e.pageX;
-            const y = e.touches ? e.touches[0].pageY : e.pageY;
-            spark.style.left = x + "px";
-            spark.style.top = y + "px";
-            spark.style.setProperty('--spark-color', pastelColors[Math.floor(Math.random() * pastelColors.length)]);
-            body.appendChild(spark);
-            setTimeout(function() {
-                spark.remove();
-            }, 1000);
-            lastSparkTime = currentTime;
-        }
-    }
-    document.addEventListener("mousemove", createSparkle);
-    document.addEventListener("touchmove", createSparkle); 
- </script>
-                        <iframe frameborder="0" scrolling="no" style="height:34px;width:100%;border:none;position:fixed;margin-left:0px;top:0px;bottom:10px;z-index:1;" src="https://rawcdn.githack.com/machetebot/zmaxxx/9bb1b568e9fd44ab8593ee7227c429cd4d07224b/Main/JWPlayer.html"></iframe>
+                        <iframe frameborder="0" scrolling="no" style="height:34px;width:100%;border:none;position:fixed;margin-left:0px;top:0px;bottom:10px;z-index:1;" src="https://machetebot.github.io/zmaxxx/Main/JWPlayer.html"></iframe>
    </body>
 </html>
