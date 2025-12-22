@@ -1,43 +1,43 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Outdoor Channel",Outdoor Channel
+#EXTINF:-1 tvg-id="Outdoor Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Outdoor_Channel_logo_2017.svg/330px-Outdoor_Channel_logo_2017.svg.png",Outdoor Channel
 https://amg00718-outdoorchannela-outdoortvnz-samsungnz-lylq4.amagi.tv/ts-eu-w1-n2/playlist/amg00718-outdoorchannela-outdoortvnz-samsungnz/cb513d007f717b8b9bd43d66d9d3f191a65928d80b6c852a6ab454876dbd4607c0f4fad39c15bb2a03c64bce600c66413d3e834c826c00c7ce1aea0e24146b6d8ae9f23b85cc755ce0a3566e35b679194ffd0805c85e2b46f4c556488934be7c4534ed0a65597bcd9e01ef290f909f0b8f7c378bb3da653074445c9b4d20baf207ffaaf13e148e3de3e8034d96285be48450dd861dbfd3d70dcb479b22a7149a8ff18a85109f8fc466a14ab3315e0174289f857cc09f05843ffb034af481ae586437c796d1976f299553515df4f6cacd179571e1aa554ee4aad97aff6087358b65a308dd8c26424658be30270abdc055643ee29ec8625cd652cf05d591dea71c529ce1544b48dc79d0621c399cf8d85ee2a971c4e673d5e62f754cb1baedfcc0490ecf10f4e87ae2fd6d729a1d083e421111924fa39664da66ee61acc0163866b825c77b34e989c3573c6e4ec9d51084535395d28596c7557beb6e1f48e769dd1b543a97745c75fd28f5da6d3cc916188a7505d71175a152ecb429c2a2d9ce0f2ffa8b9415b13cb9f542f9de36844170190ebaf9291f62497edbe12f4d1371d14ae9d685b0235a4ebcb99aaa990a76546d577f0389ebeb75dbbdc12f1c04c81c7333235e44c076bb03b82147043cc617d7de6b25d37c412785f66d04ba0d1c4d722be1b4806ed5771956be5f14fd717f4cfd7a/129/1920x1080_5287612/index.m3u8
-#EXTINF:-1 tvg-id="Discovery Channel",Discovery Channel
+#EXTINF:-1 tvg-id="Discovery Channel" tvg-logo="https://www.azernews.az/media/pictures/discovery_channel.jpg",Discovery Channel
 https://fl31.moveonjoy.com:443/Discovery_Channel/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="National Geographic",National Geographic
+#EXTINF:-1 tvg-id="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png",National Geographic
 https://fl7.moveonjoy.com:443/Nat_Geo_Wild/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="Asian Food Network",Asian Food Network
+#EXTINF:-1 tvg-id="Asian Food Network" tvg-logo="",Asian Food Network
 https://linearjitp-playback.astro.com.my/dash-wv/linear/500/162/video-cif-stream-5-158963472161157.m4f
-#EXTINF:-1 tvg-id="NBA TV",NBA TV
+#EXTINF:-1 tvg-id="NBA TV" tvg-logo="",NBA TV
 https://fl31.moveonjoy.com:443/NBA_TV/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="XFC TV Fight World",XFC TV Fight World
+#EXTINF:-1 tvg-id="XFC TV Fight World" tvg-logo="",XFC TV Fight World
 https://stream-us-east-1.getpublica.com/cl/251220d52vkc65u5vqup7t3msg/1280x720_3067851_1_f.m3u8
-#EXTINF:-1 tvg-id="Extreme Sports",Extreme Sports
+#EXTINF:-1 tvg-id="Extreme Sports" tvg-logo="",Extreme Sports
 https://tv.tvcdnpotok.com/mnczGDv05l_80MOoAYaFuw/2032/1766212009/index.m3u8
-#EXTINF:-1 tvg-id="MotoAmerica",Moto America
+#EXTINF:-1 tvg-id="MotoAmerica" tvg-logo="",Moto America
 https://stream-us-east-1.getpublica.com/cl/251220d52vnqhmjrdu0ddbfmeg/1280x720_5000000_4_f.m3u8
-#EXTINF:-1 tvg-id="Boxing TV",Boxing TV
+#EXTINF:-1 tvg-id="Boxing TV" tvg-logo="",Boxing TV
 https://stream-us-east-1.getpublica.com/cl/251220d52vou3igrgbk831ft80/1280x720_5000000_4_f.m3u8
-#EXTINF:-1 tvg-id="The Country Network",The Country Network
+#EXTINF:-1 tvg-id="The Country Network" tvg-logo="",The Country Network
 https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Redbull TV",Redbull TV
+#EXTINF:-1 tvg-id="Redbull TV" tvg-logo="",Redbull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-#EXTINF:-1 tvg-id="Motor Racing",Motor Racing
+#EXTINF:-1 tvg-id="Motor Racing" tvg-logo="",Motor Racing
 https://dai.google.com/linear/hls/pb/event/qI1pC-R_Sma0bVLVjaEOtw/stream/64664feb-e577-4964-ace2-ae101d7204b7:TPE/variant/1577d0ee9b57255391352412c6114113/bandwidth/3328000.m3u8
-#EXTINF:-1 tvg-id="FOX Sports",FOX Sports
+#EXTINF:-1 tvg-id="FOX Sports" tvg-logo="",FOX Sports
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/medhigh.m3u8
-#EXTINF:-1 tvg-id="PTV 4",PTV4 Ph
+#EXTINF:-1 tvg-id="PTV 4" tvg-logo="",PTV4 Ph
 https://ythls.armelin.one/channel/UCJCUbMaY593_4SN1QPG7NFQ.m3u8
-#EXTINF:-1 tvg-id="Cinema One Global",Cinema One Global
+#EXTINF:-1 tvg-id="Cinema One Global" tvg-logo="",Cinema One Global
 https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd?12
-#EXTINF:-1 tvg-id="GMA Pinoy TV",GMA Pinoy TV
+#EXTINF:-1 tvg-id="GMA Pinoy TV" tvg-logo="",GMA Pinoy TV
 https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd
-#EXTINF:-1 tvg-id="Knowledge Channel",Knowledge Channel
+#EXTINF:-1 tvg-id="Knowledge Channel" tvg-logo="",Knowledge Channel
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel_video_1_4_10059225.mp4?m=1676295241
-#EXTINF:-1 tvg-id="Cinemo Global",CineMo! Global
+#EXTINF:-1 tvg-id="Cinemo Global" tvg-logo="",CineMo! Global
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
-#EXTINF:-1 tvg-id="TFC Canada",TFC Canada
+#EXTINF:-1 tvg-id="TFC Canada" tvg-logo="",TFC Canada
 https://du44jtt5g7upx.cloudfront.net/out/v1/a3b708325c1d43dc9549c262526a6945/index.mpd
-#EXTINF:-1 tvg-id="HGTV",HGTV
+#EXTINF:-1 tvg-id="HGTV" tvg-logo="",HGTV
 https://84.17.40.25/HGTV/index.m3u8
-EXTINF:-1 tvg-id="GustoTV",GustoTV
+EXTINF:-1 tvg-id="GustoTV" tvg-logo="",GustoTV
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/gusto-tv/e0b047e0-b397-4b7c-bcff-7a210f612ea7/4.m3u8
