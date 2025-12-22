@@ -37,5 +37,7 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel_video_1
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
 #EXTINF:-1 tvg-id="TFC Canada",TFC Canada
 https://du44jtt5g7upx.cloudfront.net/out/v1/a3b708325c1d43dc9549c262526a6945/index.mpd
-EXTINF:-1 tvg-id="HGTV",HGTV
+#EXTINF:-1 tvg-id="HGTV",HGTV
 https://84.17.40.25/HGTV/index.m3u8
+EXTINF:-1 tvg-id="GustoTV",GustoTV
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/gusto-tv/e0b047e0-b397-4b7c-bcff-7a210f612ea7/4.m3u8
