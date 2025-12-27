@@ -29,8 +29,12 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/medhigh.m3u8
 https://ythls.armelin.one/channel/UCJCUbMaY593_4SN1QPG7NFQ.m3u8
 #EXTINF:-1 tvg-id="Cinema One Global" tvg-logo="",Cinema One Global
 https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd?12
+#EXTINF:-1 tvg-id="ABS-CBN Kapamilya" tvg-logo="",ABS-CBN Kapamilya
+https://www.youtube.com/live/QKhnD5OjBZI
 #EXTINF:-1 tvg-id="GMA Pinoy TV" tvg-logo="",GMA Pinoy TV
 https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd
+#EXTINF:-1 tvg-id="TV5 Kapatid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/500px-Natgeologo.svg.png",TV5 Kapatid
+https://www.youtube.com/live/uIkFI26kVUI
 #EXTINF:-1 tvg-id="Knowledge Channel" tvg-logo="",Knowledge Channel
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel_video_1_4_10059225.mp4?m=1676295241
 #EXTINF:-1 tvg-id="Cinemo Global" tvg-logo="",CineMo! Global
